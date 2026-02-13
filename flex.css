@@ -1,0 +1,106 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #73dab2;
+}
+
+/* EJERCICIO 6 FlexSix
+.flexSix {
+  width: 500px;
+  height: 400px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+}
+.flexSix > .one,
+.two,
+.three {
+  display: flex;
+}
+.flexSix > .one {
+  justify-content: space-around;
+}
+.flexSix > .two {
+  justify-content: space-between;
+  margin: 50px 0;
+  background-color: #d6d6d6;
+}
+.flexSix > .three {
+  justify-content: space-evenly;
+}
+.flexSix > .square {
+  background-color: #0b6643;
+}
+
+/* EJERCICIO 7 FlexSeven
+.flexSeven {
+  width: 500px;
+  height: 400px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+}
+.flexSeven > .one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-direction: column;
+}
+.flexSeven > .one {
+  justify-content: center;
+}
+.flexSeven > .two {
+  justify-content: flex-end;
+  background-color: #d6d6d6;
+}
+.flexSeven > .three {
+  justify-content: flex-start;
+}
+.flexSeven > .four {
+  justify-content: space-between;
+  background-color: #d6d6d6;
+}
+.flexSeven > .square {
+  background-color: #0b6643;
+}
+
+/* EJERCICIO 8 FlexEight*
+.flexEight {
+  width: 300px;
+  height: 400px;
+  background-color: #eeeeee;
+  display: flex;
+}
+.flexEight > .one,
+.two,
+.three {
+  display: flex;
+  height: 100%;
+}
+.flexEight > .one {
+  align-items: center;
+}
+.flexEight > .two {
+  align-items: flex-end;
+}
+.flexEight > .three {
+  align-items: flex-start;
+}
+.flexEight > .square {
+  background-color: #0b6643;
+}*/
+
+/* EJERCICIO 9 FlexNine*/
+.flexNine {
+  width: 450px;
+  height: 250px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#special {
+  align-self: flex-end;
+}
