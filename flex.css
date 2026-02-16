@@ -4,7 +4,64 @@
   background-color: #73dab2;
 }
 
-/* EJERCICIO 6 FlexSix
+/* EJERCICIO 1 FlexOne*/
+.flexOne {
+  display: flex;
+  flex-direction: row;
+}
+.flexOne > .square {
+  justify-content: space-between;
+  margin: 5px;
+}
+
+/* EJERCICIO 2 FlexTwo*/
+.flexTwo {
+  display: flex;
+  flex-direction: column;
+}
+.flexTwo > .square {
+  justify-content: space-between;
+  margin: 2px;
+}
+
+/* EJERCICIO 3 FlexThree*/
+.flexThree {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flexThree > .square {
+  justify-content: space-between;
+  margin: 5px;
+}
+
+/* EJERCICIO 4 FlexSix*/
+.flexFour {
+  width: 350px;
+  display: flex;
+  flex-flow: wrap;
+}
+.flexFour > .square {
+  background-color: #3d8b6d;
+  margin: 5px;
+}
+
+/* EJERCICIO 5 FlexFive*/
+.flexFive {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flexFive > .item {
+  width: 100px;
+  height: 100px;
+  justify-content: space-between;
+  margin: 2px;
+  background-color: #0b6643;
+}
+#grow {
+  flex-grow: 2;
+}
+
+/*EJERCICIO 6 FlexSix*/
 .flexSix {
   width: 500px;
   height: 400px;
@@ -13,8 +70,8 @@
   flex-direction: column;
 }
 .flexSix > .one,
-.two,
-.three {
+.flexSix > .two,
+.flexSix > .three {
   display: flex;
 }
 .flexSix > .one {
@@ -32,7 +89,7 @@
   background-color: #0b6643;
 }
 
-/* EJERCICIO 7 FlexSeven
+/* EJERCICIO 7 FlexSeven*/
 .flexSeven {
   width: 500px;
   height: 400px;
@@ -41,9 +98,9 @@
   justify-content: space-between;
 }
 .flexSeven > .one,
-.two,
-.three,
-.four {
+.flexSeven > .two,
+.flexSeven > .three,
+.flexSeven > .four {
   display: flex;
   flex-direction: column;
 }
@@ -65,7 +122,7 @@
   background-color: #0b6643;
 }
 
-/* EJERCICIO 8 FlexEight*
+/* EJERCICIO 8 FlexEight*/
 .flexEight {
   width: 300px;
   height: 400px;
@@ -73,8 +130,8 @@
   display: flex;
 }
 .flexEight > .one,
-.two,
-.three {
+.flexEight > .two,
+.flexEight > .three {
   display: flex;
   height: 100%;
 }
@@ -89,7 +146,7 @@
 }
 .flexEight > .square {
   background-color: #0b6643;
-}*/
+}
 
 /* EJERCICIO 9 FlexNine*/
 .flexNine {
