@@ -28,9 +28,9 @@
 .flexThree {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 .flexThree > .square {
-  justify-content: space-between;
   margin: 5px;
 }
 
@@ -49,6 +49,7 @@
 .flexFive {
   display: flex;
   flex-direction: row-reverse;
+  width: 350px;
 }
 .flexFive > .item {
   width: 100px;
